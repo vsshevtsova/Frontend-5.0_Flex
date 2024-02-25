@@ -47,6 +47,7 @@ li::before {
 .block__main-intro {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
   padding: 50px 50px;
 }
 .block__intro-img {
