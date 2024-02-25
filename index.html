@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="block__header">
+        <div class="block__text">
+          <div class="block__title">
+            <h1 class="block__title">Привет, друг!</h1>
+          </div>
+          <div class="block__list">
+            <ul>
+              <li>У тебя все получится!</li>
+              <li>Никогда не сдавайся!</li>
+              <li>Сегодня ты уже знаешь больше чем вчера!</li>
+              <li>Спасибо тебе за поддержку!</li>
+            </ul>
+          </div>
+        </div>
+        <div class="block__header-img"></div>
+      </div>
+      <div class="block__main-intro">
+        <div class="block__intro-img"></div>
+        <div class="block__intro-text">
+          <h2 class="block__title">Что такое Flexbox?</h2>
+          <div class="block__paragraph">
+            <p>
+              Flexbox - это целый модуль, содержащий в себе набор свойств и их
+              значений как для родителя flex-контейнера так и для его дочерних
+              элементов flex-элементов.
+            </p>
+            <p>
+              Основным преимуществом гибкой FLEX разметки является возможность
+              изменять ширину/высоту пространство вокруг и порядок
+              flex-элементов, для того чтобы наилучшим образом заполнить
+              доступное пространство flex-контейнера
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="block__main-columns">
+        <h2 class="block__title">Колонки с flex-контейнерами</h2>
+        <div class="block__columns">
+          <div class="block__column">
+            <div class="column__card">
+              <div class="card__img"></div>
+              <div class="card__img-description">
+                <h3 class="card__title">The description for the image</h3>
+                <p class="card__description">
+                  Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque
+                  itaque, ipsa vel exercitationem ullam quos aut nostrum
+                  cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde
+                  perferendis nemo debitis dolor.
+                </p>
+              </div>
+            </div>
+            <div class="column__card">
+              <div class="card__img"></div>
+              <div class="card__img-description">
+                <h3 class="card__title">The description for the image</h3>
+                <p class="card__description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum
+                  omnis porro ex, magni, explicabo veniam incidunt in quam
+                  sapiente ut ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="block__column">
+            <div class="column__card">
+              <div class="card__img"></div>
+              <div class="card__img-description">
+                <h3 class="card__title">The description for the image</h3>
+                <p class="card__description">
+                  Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque
+                  itaque, ipsa vel exercitationem ullam quos aut nostrum
+                  cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde
+                  perferendis nemo debitis dolor.
+                </p>
+              </div>
+            </div>
+            <div class="column__card">
+              <div class="card__img"></div>
+              <div class="card__img-description">
+                <h3 class="card__title">The description for the image</h3>
+                <p class="card__description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum
+                  omnis porro ex, magni, explicabo veniam incidunt in quam
+                  sapiente ut ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block__main-vertical">
+        <h2 class="block__title">Вертикальное выравнивание</h2>
+        <div class="block__cards">
+          <div class="card">
+            <div class="paragraph">
+              <p class="paragraph__first">Буду рад</p>
+              <p class="paragraph__second">подписке</p>
+              <p class="paragraph__third">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+                tenetur fugit vel, eligendi illum, placeat quo vero reiciendis
+                consectetur.
+              </p>
+            </div>
+            <button class="btn">Подписаться</button>
+          </div>
+          <div class="card">
+            <div class="paragraph">
+              <p class="paragraph__first">Буду рад</p>
+              <p class="paragraph__second">лайку</p>
+              <p class="paragraph__third">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+                tenetur fugit vel, eligendi illum, placeat quo vero reiciendis
+                consectetur voluptatibus atque et itaque, hic, deleniti. Sunt
+                commodi tempora voluptatum dolorum. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Sint tenetur fugit vel, eligendi
+                illum, placeat quo vero reiciendis consectetur tempora
+                voluptatum dolorum.
+              </p>
+            </div>
+            <button class="btn">Лайк</button>
+          </div>
+          <div class="card">
+            <div class="paragraph">
+              <p class="paragraph__first">Буду рад</p>
+              <p class="paragraph__second">комментарию</p>
+              <p class="paragraph__third">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
+              </p>
+            </div>
+            <button class="btn">Прокомментировать</button>
+          </div>
+        </div>
+      </div>
+      <div class="block__footer">
+        <p class="paragraph__footer">Фрилансер по жизни 2019</p>
+      </div>
+    </div>
+  </body>
+</html>
