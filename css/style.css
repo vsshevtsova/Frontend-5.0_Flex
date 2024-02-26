@@ -32,14 +32,14 @@ li {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
 li::before {
-  content: url(/icons/check_icon.png);
+  content: url(../icons/check_icon.png);
   margin-right: 8px;
 }
 
 .block__header-img {
   width: 469px;
   height: 214px;
-  background-image: url(/img/cover.png);
+  background-image: url(../img/cover.png);
 }
 
 /* Второй блок */
@@ -53,7 +53,7 @@ li::before {
 .block__intro-img {
   width: 430px;
   height: 186px;
-  background-image: url(/img/flex.png);
+  background-image: url(../img/flex.png);
 }
 
 .block__intro-text {
@@ -82,16 +82,13 @@ h2 {
 
 .block__columns {
   display: flex;
-  gap: 30px;
-}
-.block__column {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  flex-wrap: wrap;
 }
 .column__card {
   display: flex;
+  max-width: 50%;
   align-items: flex-start;
+  margin: 15px 0;
 }
 h3 {
   font-size: 24px;
@@ -109,6 +106,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-right: 16px;
 }
 
 /* Четвертый блок */
